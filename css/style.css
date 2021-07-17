@@ -90,7 +90,9 @@ input[type="submit"]{
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
+
 
 img{
     width: 200px;
@@ -104,6 +106,12 @@ img{
     align-items: center;
     flex-basis:20%;
     padding: 3px;
+    cursor: pointer;
+}
+
+.card:hover{
+    border: 3px solid #1C1C1C;
+    /* background-color: #1C1C1C; */
 }
 
 .product-name, .price{
